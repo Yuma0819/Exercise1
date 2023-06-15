@@ -5,7 +5,7 @@ class DiceGame{
 	Random rand = new Random();
 	int Die1 = rand.nextInt(6) + 1;
 	int Die2 = rand.nextInt(6) + 1;
-
+	
 	System.out.println("Rolling dice...");
 	System.out.println("Die 1: " + Die1);
 	System.out.println("Die 2: " + Die2);
